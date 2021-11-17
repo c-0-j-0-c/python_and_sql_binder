@@ -7,3 +7,4 @@ dependencies:
   - soci-mysql
   - soci-core
   - jupyterlab-sos
+  - nodejs==15.12.0
