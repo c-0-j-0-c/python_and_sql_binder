@@ -1,3 +1,4 @@
 #!/bin/bash
+python3 -m sos_notebook.install
 jupyter labextension update --all
 wget -q -O Testing.db "https://github.com/c-0-j-0-c/binder_content/raw/master/Testing.db" 
