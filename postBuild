@@ -1,4 +1,19 @@
 #!/bin/bash
-python3 -m sos_notebook.install
-jupyter labextension update --all
-wget -q -O Testing.db "https://github.com/c-0-j-0-c/binder_content/raw/master/Testing.db" 
+#python3 -m sos_notebook.install
+#jupyter labextension update --all
+wget -q -O employees.sql https://raw.githubusercontent.com/c-0-j-0-c/binder_content/main/employees.sql
+wget -q -O load_departments.dump "https://raw.githubusercontent.com/datacharmer/test_db/master/load_departments.dump"
+wget -q -O load_dept_emp.dump "https://raw.githubusercontent.com/datacharmer/test_db/master/load_dept_emp.dump"
+wget -q -O load_employees.dump "https://raw.githubusercontent.com/datacharmer/test_db/master/load_employees.dump"
+wget -q -O load_salaries1.dump "https://raw.githubusercontent.com/datacharmer/test_db/master/load_salaries1.dump"
+wget -q -O load_salaries2.dump "https://raw.githubusercontent.com/datacharmer/test_db/master/load_salaries2.dump"
+wget -q -O load_salaries3.dump "https://raw.githubusercontent.com/datacharmer/test_db/master/load_salaries3.dump"
+wget -q -O load_titles.dump "https://raw.githubusercontent.com/datacharmer/test_db/master/load_titles.dump"
+sqlite3 Testing.db < employees.sql
+sqlite3 Testing.db < load_departments.dump
+sqlite3 Testing.db < load_dept_emp.dump
+sqlite3 Testing.db < load_employees.dump
+sqlite3 Testing.db < load_salaries1.dump
+sqlite3 Testing.db < load_salaries2.dump
+sqlite3 Testing.db < load_salaries3.dump
+# wget -q -O Testing.db "https://github.com/c-0-j-0-c/binder_content/raw/master/Testing.db" 
