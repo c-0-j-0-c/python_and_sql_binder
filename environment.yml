@@ -6,8 +6,6 @@ dependencies:
   - soci-sqlite
   - soci-mysql
   - soci-core
-  - pip:
-      - feather-format
-      - julia
-      - sos
-      - sos-notebook
+  - sos
+  - sos-notebook
+  - jupyterlab-sos
