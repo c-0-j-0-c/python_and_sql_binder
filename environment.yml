@@ -1,11 +1,5 @@
-name: python_and_sql
+name: ipython-sql
 channels:
   - conda-forge
 dependencies:
-  - xeus-sql=0.0.8
-  - soci-sqlite
-  - soci-mysql
-  - soci-core
-  - sos
-  - sos-notebook
-  - jupyterlab-sos
+  - ipython-sql
