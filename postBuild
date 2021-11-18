@@ -1,6 +1,9 @@
 #!/bin/bash
 #python3 -m sos_notebook.install
 #jupyter labextension update --all
+git clone https://github.com/catherinedevlin/ipython-sql.git
+pip install ipython-sql/
+rm -R ipython-sql
 wget -q -O employees.sql https://raw.githubusercontent.com/c-0-j-0-c/binder_content/main/employees.sql
 wget -q -O load_departments.dump "https://raw.githubusercontent.com/datacharmer/test_db/master/load_departments.dump"
 wget -q -O load_dept_emp.dump "https://raw.githubusercontent.com/datacharmer/test_db/master/load_dept_emp.dump"
