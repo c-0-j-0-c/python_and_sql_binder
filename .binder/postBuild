@@ -4,6 +4,9 @@
 git clone https://github.com/catherinedevlin/ipython-sql.git
 pip install ipython-sql/
 rm -R ipython-sql
+pip install jupyterlab_sql
+jupyter serverextension enable jupyterlab_sql --py --sys-prefix
+jupyter lab build
 wget -q -O employees.sql https://raw.githubusercontent.com/c-0-j-0-c/binder_content/main/employees.sql
 wget -q -O load_departments.dump "https://raw.githubusercontent.com/datacharmer/test_db/master/load_departments.dump"
 wget -q -O load_dept_emp.dump "https://raw.githubusercontent.com/datacharmer/test_db/master/load_dept_emp.dump"
