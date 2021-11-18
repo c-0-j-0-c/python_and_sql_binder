@@ -20,6 +20,6 @@ sqlite3 Testing.db < load_salaries1.dump
 sqlite3 Testing.db < load_salaries2.dump
 sqlite3 Testing.db < load_salaries3.dump
 chmod u+x getAttributes.sh
-chmod u+x TextView.sh
+chmod u+x Table_View.sh
 chmod u+x Tables.py
 # wget -q -O Testing.db "https://github.com/c-0-j-0-c/binder_content/raw/master/Testing.db" 
