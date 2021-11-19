@@ -5,4 +5,4 @@ dependencies:
   - ipython-sql
   - sidecar
   - eralchemy
-  - hide_code
+  - pillow
