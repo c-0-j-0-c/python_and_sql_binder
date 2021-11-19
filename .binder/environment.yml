@@ -4,3 +4,4 @@ channels:
 dependencies:
   - ipython-sql
   - sidecar
+  - eralchemy
