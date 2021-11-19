@@ -1,0 +1,11 @@
+Track:
+TrackId
+Name
+AlbumId
+MediaTypeId
+GenreId
+Composer
+Milliseconds
+Bytes
+UnitPrice
+
