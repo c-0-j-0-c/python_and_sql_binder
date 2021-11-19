@@ -6,3 +6,4 @@ dependencies:
   - sidecar
   - eralchemy
   - pillow
+  - ipylab
