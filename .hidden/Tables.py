@@ -1,6 +1,6 @@
 import sys
 if __name__ == "__main__":
-    with open("tables.txt", encoding = 'utf-8') as t:
+    with open("./.hidden/tables.txt", encoding = 'utf-8') as t:
         tables = t.read()
         tablesList = tables.split()
         len_t = max([len(i) for i in tablesList])
