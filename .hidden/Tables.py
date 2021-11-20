@@ -9,7 +9,7 @@ if __name__ == "__main__":
         db, attribStr = text.split(": ")
         attrib = attribStr.split()
         attrib_list = []
-        attribs = (db + ": ").ljust(len_t + 2)
+        attribs = "<b>" + f"{db}:".ljust(len_t + 2)+"</b>"
         for i, a  in enumerate(attrib):
             if len(attribs) < 55:
                 attribs += a + ", "
