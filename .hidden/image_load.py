@@ -1,8 +1,8 @@
+from ipylab import JupyterFrontEnd, Panel
 import ipywidgets as widgets
 from PIL import Image
-from sidecar import Sidecar
 
-def load_image(IMG_FILE):
+def load_image(app, IMG_FILE):
     #read the image
     er = Image.open(IMG_FILE)
     #image size
@@ -13,8 +13,9 @@ def load_image(IMG_FILE):
 
         file = open(IMG_FILE, "rb")
         image = file.read()
+        
 
-        im = Sidecar(title='ER Diagram', anchor='split-bottom')
+        #im = Sidecar(title='ER Diagram', anchor='split-bottom')
         im_w = widgets.Image(
                 value=image,
                 format='png',
@@ -42,9 +43,9 @@ def load_image(IMG_FILE):
         im_w.width = (s.value/h) * w
 
     s.observe(handle_slider_change, names='value')
-    v_b = widgets.VBox([s, im_w], layout=widgets.Layout(height='275px', overflow_y='auto',display='block'))
-    with im:
-        display(v_b)
-        
-        
-    
+
+    v_b = widgets.VBox([s, im_w])
+    panel = Panel()
+    panel.children = [v_b]
+    panel.title.label = "ER Diagram"
+    app.shell.add(panel, 'main', { 'mode': 'split-bottom' })
