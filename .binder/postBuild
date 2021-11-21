@@ -23,5 +23,5 @@ chmod u+x .hidden/getAttributes.sh
 chmod u+x .hidden/Table_View.sh
 wget -q -O .hidden load_titles.dump "https://raw.githubusercontent.com/datacharmer/test_db/master/load_titles.dump"
 # wget -q -O Testing.db "https://github.com/c-0-j-0-c/binder_content/raw/master/Testing.db" 
-wget -q -O .hidden/jupyterquiz-1.9-py2.py3-none-any.whl jupyterquiz-1.9-py2.py3-none-any.whl "https://github.com/c-0-j-0-c/binder_content/raw/main/jupyterquiz-1.9-py2.py3-none-any.whl"
-pip install ./.hidden/jupyterquiz-1.9-py2.py3-none-any.whl jupyterquiz-1.9-py2.py3-none-any.whl 
+wget -q -O .hidden/jupyterquiz-1.9-py2.py3-none-any.whl "https://github.com/c-0-j-0-c/binder_content/raw/main/jupyterquiz-1.9-py2.py3-none-any.whl"
+pip install ./.hidden/jupyterquiz-1.9-py2.py3-none-any.whl
