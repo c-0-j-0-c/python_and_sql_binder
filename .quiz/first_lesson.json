@@ -1,0 +1,293 @@
+[ 
+    {
+        "question": "What result do you get if you print list.append()",
+        "type": "text",
+        "answers": [
+            {
+                "type": "value",
+                "value": "None",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "type": "default",
+                "feedback": ""
+            }
+        ]
+    },
+	    {
+        "question": "What keyword can you use to find if a list contains a particular value?",
+        "type": "text",
+        "answers": [
+            {
+                "type": "value",
+                "value": "in",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "type": "default",
+                "feedback": ""
+            }
+        ]
+    },
+	{
+        "question": "You wish to test if some condition is true and then run some code if the condition is met, what keyword do you use?",
+        "type": "text",
+        "answers": [
+            {
+                "type": "value",
+                "value": "if",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "type": "default",
+                "feedback": ""
+            }
+        ]
+    },
+		{
+        "question": "What clause do you put code in which might generate an error",
+        "type": "text",
+        "answers": [
+            {
+                "type": "value",
+                "value": "try",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "type": "default",
+                "feedback": ""
+            }
+        ]
+    },
+	
+	{
+        "question": "If you ran some code and knew it might generate some errors, where do you put code to run if a error happened?",
+        "type": "text",
+        "answers": [
+            {
+                "type": "value",
+                "value": "except",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "type": "default",
+                "feedback": ""
+            }
+        ]
+    },
+	{
+        "question": "You wish to test for multiple conditions and you want all to the conditions to be true, what keyword do you use?",
+        "type": "text",
+        "answers": [
+            {
+                "type": "value",
+                "value": "and",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "type": "default",
+                "feedback": ""
+            }
+        ]
+    },
+	{
+        "question": "You wish to execute code repeatedly until a condition is met; what keyword do you use?",
+        "type": "text",
+        "answers": [
+            {
+                "type": "value",
+                "value": "while",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "type": "default",
+                "feedback": ""
+            }
+        ]
+    },
+		{
+        "question": "A condition is met inside a loop; and you wish to exit the loop, what keyword do you use?",
+        "type": "text",
+        "answers": [
+            {
+                "type": "value",
+                "value": "break",
+                "correct": true,
+                "feedback": "Correct."
+            },
+			            {
+                "type": "value",
+                "value": "return",
+                "correct": false,
+                "feedback": "Only applicable if you wish to return a value"
+            },
+            {
+                "type": "default",
+                "feedback": ""
+            }
+        ]
+    },
+	{
+        "question": "What keyword do you use to define a function?",
+        "type": "text",
+        "answers": [
+            {
+                "type": "value",
+                "value": "def",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "type": "default",
+                "feedback": ""
+            }
+        ]
+    },
+	{
+        "question": "You have already tested for one condition and the conditions are mutually exclusive and wish to run some code if the condition is met; which keyword do you use?",
+        "type": "text",
+        "answers": [
+            {
+                "type": "value",
+                "value": "elif",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "type": "default",
+                "feedback": ""
+            }
+        ]
+    },
+	{
+        "question": "You are writing a function and it generates a value. What keyword do you need to use to get the value?",
+        "type": "text",
+        "answers": [
+            {
+                "type": "value",
+                "value": "return",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "type": "default",
+                "feedback": ""
+            }
+        ]
+    },
+	{
+        "question": "You want to find if one or more of the conditions are true, what keyword do you use?",
+        "type": "text",
+        "answers": [
+            {
+                "type": "value",
+                "value": "or",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "type": "default",
+                "feedback": ""
+            }
+        ]
+    },
+	{
+        "question": "If a condition is met, what value is returned?",
+        "type": "text",
+        "answers": [
+            {
+                "type": "value",
+                "value": "True",
+                "correct": true,
+                "feedback": "Correct."
+            },
+			{
+                "type": "value",
+                "value": "true",
+                "correct": false,
+                "feedback": "Need a capital letter"
+            },
+            {
+                "type": "default",
+                "feedback": ""
+            }
+        ]
+    },
+	{
+        "question": "You have already test for one or more conditions and want to run code if the above conditions weren't met; what keyword do you use",
+        "type": "text",
+        "answers": [
+            {
+                "type": "value",
+                "value": "else",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "type": "default",
+                "feedback": ""
+            }
+        ]
+    },
+	{
+        "question": "You are in a loop but wish to skip the rest of the code in this iteration of the loop and go to the next iteration of the loop, which keyword do you use?",
+        "type": "text",
+        "answers": [
+            {
+                "type": "value",
+                "value": "continue",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "type": "default",
+                "feedback": ""
+            }
+        ]
+    },
+	{
+        "question": "What value is return by '0' == 0",
+        "type": "text",
+        "answers": [
+            {
+                "type": "value",
+                "value": "False",
+                "correct": true,
+                "feedback": "Correct."
+            },
+			            {
+                "type": "value",
+                "value": "false",
+                "correct": false,
+                "feedback": "Need a capital."
+            },
+            {
+                "type": "default",
+                "feedback": ""
+            }
+        ]
+    },
+	{
+        "question": "Which keyword do you use to iterate over something eg a list or a word",
+        "type": "text",
+        "answers": [
+            {
+                "type": "value",
+                "value": "for",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "type": "default",
+                "feedback": ""
+            }
+        ]
+    }
+]
