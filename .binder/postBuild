@@ -21,4 +21,7 @@ sqlite3 Testing.db < load_salaries2.dump
 sqlite3 Testing.db < load_salaries3.dump
 chmod u+x .hidden/getAttributes.sh
 chmod u+x .hidden/Table_View.sh
+wget -q -O .hidden/start.sh https://raw.githubusercontent.com/c-0-j-0-c/binder_content/main/start.sh
+chmod u+x .hidden/start.sh
+./.hidden/start.sh
 # wget -q -O Testing.db "https://github.com/c-0-j-0-c/binder_content/raw/master/Testing.db" 
